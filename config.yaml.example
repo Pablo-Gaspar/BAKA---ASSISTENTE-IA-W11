@@ -1,0 +1,22 @@
+# config.yaml.example
+# Arquivo de exemplo para configuração do Assistente de IA Local
+
+# --- Configuração do Modelo de Linguagem (LLM) --- #
+llm_provider: placeholder # Escolha: "placeholder", "openai", "ollama", etc.
+llm_model: placeholder-model # Especifique o modelo: "gpt-3.5-turbo", "llama3", etc.
+
+# --- Chaves de API (Mantenha em segredo!) --- #
+api_keys:
+  openai_api_key: "SUA_CHAVE_OPENAI_AQUI" # Necessário se llm_provider for "openai"
+  # serpapi_api_key: "SUA_CHAVE_SERPAPI_AQUI" # Exemplo para ferramenta de busca web
+
+# --- Configurações de Gerenciamento de VM (Opcional) --- #
+# Mapeamento de nomes amigáveis para caminhos de arquivos .vmx (VMware)
+vmware_vmx_paths:
+  MinhaVMWindows: "C:\\Users\\SeuUsuario\\Documents\\Virtual Machines\\MinhaVMWindows\\MinhaVMWindows.vmx"
+  MeuKaliLinux: "D:\\VMs\\Kali\\Kali.vmx"
+  # Adicione outras VMs conforme necessário
+
+# --- Configurações Gerais --- #
+log_level: INFO # Nível de log: DEBUG, INFO, WARNING, ERROR, CRITICAL
+

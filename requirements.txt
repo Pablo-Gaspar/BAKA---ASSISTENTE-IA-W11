@@ -1,0 +1,26 @@
+# requirements.txt
+# Lista de dependências Python para o Assistente de IA Local
+
+# Core LangChain (necessário)
+langchain
+langchain-core
+langchain-community
+
+# Para Interface de Voz (necessário se usar a interface de voz)
+SpeechRecognition
+PyAudio # Nota: Pode exigir instalação especial no Windows, veja README.md
+
+# Para carregar configuração YAML (se usar config.yaml)
+PyYAML
+
+# Opcional: Dependências específicas do LLM (instale conforme necessário)
+# Exemplo para OpenAI:
+# langchain-openai
+# openai
+
+# Exemplo para Ollama:
+# (Geralmente incluído em langchain-community, mas verifique a documentação)
+
+# Opcional: Para interface CLI mais rica
+# rich
+
