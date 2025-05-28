@@ -114,11 +114,11 @@ Este projeto está licenciado sob a Licença MIT - veja o arquivo [LICENSE](LICE
 
 ## 📊 Roadmap
 
-- [ ] Implementação de interface gráfica (GUI)
-- [ ] Integração com mais serviços online
-- [ ] Suporte a múltiplos idiomas
-- [ ] Aprendizado contínuo baseado no histórico de interações
+- [*] Implementação de interface gráfica (GUI)
+- [*] Integração com mais serviços online
+- [*] Suporte a múltiplos idiomas
+- [*] Aprendizado contínuo baseado no histórico de interações
 
 ## 📞 Contato
 
-Para dúvidas ou sugestões, abra uma issue no GitHub ou entre em contato através de [seu-email@exemplo.com].
+Para dúvidas ou sugestões, abra uma issue no GitHub ou entre em contato através de [PABLOO.GASPAR@HOTMAIL.COM].
